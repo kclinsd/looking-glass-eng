@@ -83,7 +83,6 @@ onUnmounted(() => {
     <n-alert v-if="working && port" title="You can use the following command to connect to the IPerf3 server" type="info">
       <n-space vertical>
         <template v-if="appStore.config.public_ipv4">
-          // IPv4
           <Copy :value="'iperf3 -c ' + appStore.config.public_ipv4 + ' -p ' + port"
             >iperf3 -c {{ appStore.config.public_ipv4 }} -p {{ port }}</Copy
           >
