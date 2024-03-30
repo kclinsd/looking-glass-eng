@@ -10,7 +10,7 @@ Language: English | [简体中文](README_zh_CN.md)
 docker run -d --name looking-glass --restart always --network host wikihostinc/looking-glass-server
 ```
 
-[DEMO](http://lg.hk1-bgp.hkg.50network.com/)
+[DEMO](http://lg.undip.ac.id/)
 
 If you don't want to use Docker , you can use the [compiled server](https://github.com/wikihost-opensource/als/releases)
 
