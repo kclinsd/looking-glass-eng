@@ -32,7 +32,7 @@ RUN apk add --no-cache \
 RUN rm -rf /app
 
 FROM alpine:3
-LABEL maintainer="samlm0 <update@ifdream.net>"
+LABEL maintainer="kclinsd <kclinsd@gmail.com>"
 COPY --from=builderEnv / /
 COPY --from=builderGolang --chmod=777 /app/als/als /bin/als
 
